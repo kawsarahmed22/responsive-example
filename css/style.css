@@ -5,7 +5,23 @@
     margin-bottom: 5px;
 }
 
+.row>div {
+    /* div soman jayga nibe */
+    flex: 1;
+    
+}
+
 img {
     width: 100%;
     height: 100%;
+}
+
+.vertical img {
+    height: calc((100% - 5px)/2)
+}
+
+.square-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
 }
